@@ -4,7 +4,7 @@ def bank_account():
     if choice == "a":
         account = input("enter your account ")
     else:
-        account = "saving account"   
+        account = "current account"   
     return name, account
 result = bank_account()     
 print(result)
